@@ -2,9 +2,11 @@ public interface Fly {
 
     void takeOff();
 
-    int flyUpward(int altitude);
+    int ascend(int meters);
 
-    int flyDownward(int altitude);
+    int descend(int meters);
 
     void land();
+
+    void glide();
 }
